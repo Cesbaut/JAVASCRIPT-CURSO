@@ -21,7 +21,7 @@ console.log(saludo('Cesar2'));
 //FUNCIONES FLECHA  ()=>{}
 //Igualan a una variable, es decir, es una funcion anonima
 //no requiere un return si es de una sola linea
-let saludoFlecha = (nombre) => {
+let saludoFlecha = (nombre)  =>{
     return `Hola ${nombre}`
 };
 let saludoFlecha2 = nombre => `Hola ${nombre}`;
